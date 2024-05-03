@@ -1,5 +1,5 @@
-name: 'CloudFormation Deploy Action'
-description: 'Deploy AWS CloudFormation Stack'
+name: 'CloudFormation Deploy Action Ubuntu Jammy'
+description: 'Deploy AWS CloudFormation Stack for  Ubuntu Jammy'
 branding:
   icon: 'upload-cloud'
   color: 'orange'

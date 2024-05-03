@@ -1,15 +1,15 @@
-FROM ubuntu
+FROM ubuntu:jammy
 
 LABEL version="1.0.0"
 
-LABEL com.github.actions.name="CloudFormation Deploy Action"
-LABEL com.github.actions.description="Deploy AWS CloudFormation Stack"
+LABEL com.github.actions.name="CloudFormation Deploy Action Ubuntu Jammy"
+LABEL com.github.actions.description="Deploy AWS CloudFormation Stack for Ubuntu Jammy"
 LABEL com.github.actions.icon="upload-cloud"
 LABEL com.github.actions.color="orange"
 
-LABEL repository="https://github.com/mgenteluci/cloudformation-deploy-action"
-LABEL homepage="https://github.com/mgenteluci/cloudformation-deploy-action"
-LABEL maintainer="Matheus Genteluci <mgenteluci97@gmail.com>"
+LABEL repository="https://github.com/petavue/cloudformation-deploy-action-ubuntu"
+LABEL homepage="https://github.com/petavue/cloudformation-deploy-action-ubuntu"
+LABEL maintainer="Ijas <ijas@petavue.com>"
 
 ARG DEBIAN_FRONTEND=noninteractive
 
